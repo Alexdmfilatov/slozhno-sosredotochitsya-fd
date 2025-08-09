@@ -7,14 +7,13 @@
 }
 
 body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: normal;
   font-size: 18px;
-  padding-left: clamp(10px, calc(0.458px + 2.545vw), 20px);
-  padding-right: clamp(10px, calc(0.458px + 2.545vw), 20px);
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
 }
 
 h1,
