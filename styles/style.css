@@ -1,8 +1,6 @@
 .page {
   display: grid;
   gap: clamp(40px, calc(20.916px + 5.089vw), 60px);
-  padding-right: clamp(10px, calc(0.458px + 2.545vw), 20px);
-  padding-left: clamp(10px, calc(0.458px + 2.545vw), 20px);
   background-color: var(--background-color);
   background-image: var(--background_image);
   background-repeat: no-repeat;
