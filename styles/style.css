@@ -14,8 +14,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  padding-top: clamp(10px, calc(0.458px + 2.545vw), 20px);
-  padding-bottom: clamp(10px, calc(0.458px + 2.545vw), 20px);
+  padding: clamp(10px, calc(0.458px + 2.545vw), 20px);
   block-size: 100vh;
   min-block-size: 658px;
 }
@@ -128,6 +127,8 @@
 .main {
   display: grid;
   gap: clamp(50px, calc(21.374px + 7.634vw), 80px);
+  padding-right: clamp(10px, calc(0.458px + 2.545vw), 20px);
+  padding-left: clamp(10px, calc(0.458px + 2.545vw), 20px);
 }
 
 .section {
@@ -182,6 +183,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
+  padding-right: clamp(10px, calc(0.458px + 2.545vw), 20px);
+  padding-left: clamp(10px, calc(0.458px + 2.545vw), 20px);
   block-size: 100vh;
   min-block-size: 668px;
 }
