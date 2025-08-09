@@ -93,7 +93,7 @@
   content: '';
   position: absolute;
   bottom: clamp(10px, calc(0.458px + 2.545vw), 20px);
-  left: clamp(10px, calc(0.458px + 2.545vw), 20px);;
+  left: clamp(10px, calc(0.458px + 2.545vw), 20px);
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--button-color);
@@ -141,6 +141,11 @@
   flex-direction: column;
   gap: 10px;
 }
+
+.section-causes-cards {
+    display: grid;
+    gap: 20px;
+  }
 
 .text-link {
   text-decoration: none;
@@ -208,10 +213,8 @@
   }
 
   .section-causes-cards {
-    display: grid;
     grid-column: 1 / 3;
     grid-row: 2;
-    gap: 20px;
   }
 
   .section-causes .card {
