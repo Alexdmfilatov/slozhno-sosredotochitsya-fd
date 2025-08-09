@@ -3,8 +3,9 @@
     --background_image: url(../images/cover-image-light.png);
     --background-color: #FFF1F7;
     --accent-color: #FF8DCB;
+    --button-color: #353430;
     --title-color: #FFC2E6;
-    --accent-color-rgb: 255, 141, 203;
+    --button-color-rgb: 53, 52, 48;
     --section-title-color: var(--text-color);
     --text-color: #353430;
     --card-title-color: #353430;
@@ -19,8 +20,9 @@
     --background_image: url(../images/cover-image-light.png);
     --background-color: #FFF1F7;
     --accent-color: #FF8DCB;
+    --button-color: #353430;
     --title-color: #FFC2E6;
-    --accent-color-rgb: 255, 141, 203;
+    --button-color-rgb: 53, 52, 48;
     --section-title-color: var(--text-color);
     --text-color: #353430;
     --card-title-color: #353430;
